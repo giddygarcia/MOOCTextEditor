@@ -67,7 +67,7 @@ public class WPTree implements WordPath {
 class WPTreeNode {
     
     private String word;
-    private List<WPTreeNode> children;
+    private List<WPTreeNode> children; //words that are 1 mutation away
     private WPTreeNode parent;
     
     /** Construct a node with the word w and the parent p
